@@ -52,7 +52,7 @@ horarias.
 # Objetivo 0
 * Configuración de Git y Github
 * Descripción del problema
-[Objetivo 0]()
+[Objetivo 0](https://github.com/JoseCarlosJC/UseTime/tree/objetivo_0/obj-0)
 
 # Licencia
 GNU General Public License v3.0
