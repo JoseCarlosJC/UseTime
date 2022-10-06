@@ -52,10 +52,8 @@ horarias.
 # Objetivo 0
 * Configuración de Git y Github
 * Descripción del problema
-*[Objetivo 0][1]*
-[1]: http://programminghistorian.org/
+[Objetivo 0]()
 
 # Licencia
 GNU General Public License v3.0
-Ver *[licencia][2]*
-[2]: https://github.com/JoseCarlosJC/UseTime/blob/main/LICENSE
+Ver [licencia](https://github.com/JoseCarlosJC/UseTime/blob/main/LICENSE)
