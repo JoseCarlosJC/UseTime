@@ -3,7 +3,7 @@ No tener una organización planteada y dejarlo todo en nuestra memoria puede sup
 una desventaja a la hora de realizar una serie de tareas y cumplir un objetivo.
 
 Esto ocurre por ejemplo a la hora de realizar ejercicio físico en un gimnasio. Tener
-una rutina especificada te ayudará a concentrarte solo en los ejercicios en sí y así
+una rutina especificada te ayudará a concentrarte solo en los ejercicios y así
 lograr la meta propuesta.
 
 En este caso la organización va a ir dirigida al conjunto de tareas, prácticas, ejercicios,
@@ -19,7 +19,7 @@ vida personal, etc., se quiere realizar un servicio software capaz
 de distribuir una serie de tareas en el tiempo.
 
 Este software tendrá en cuenta una serie de parámetros para poder determinar
-la distribución de las tareas a lo largo del tiempo. Estos parámetros serán:
+la distribución de las tareas a lo largo del tiempo. Estos parámetros podrían ser:
 * Franjas horarias disponibles para trabajar
 * Fecha de finalización del trabajo
 * Cantidad de trabajo a realizar cuando se está muy cerca de la entrega
@@ -42,9 +42,9 @@ cuyo plazo acaba antes.
 
 
 Esta parte del servicio correspondería a cada usuario indivualmente, pero esto se podría
-extender más allá y proporcionar una distribución de una tarea en grupos. Una persona
+extender más allá y proporcionar una distribución de tareas en grupos. Una persona
 sería la encargada de crear una tarea y compartirla con los distintos usuarios. El programa
-tendrá en cuenta entonces los horarios de todos los usuarios para buscar compatibilidades
+tendrá en cuenta los horarios de todos los usuarios para buscar las compatibilidades
 horarias.
 
 
