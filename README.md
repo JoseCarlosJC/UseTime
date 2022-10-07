@@ -16,7 +16,10 @@ Para las personas poco organizadas, que dejan las tareas para lo último,
 llegan abogiadas a las entregas, no aprovechan el tiempo para el trabajo
 y por ende gastan más de lo que deberían, restando tiempo para ocio,
 vida personal, etc., se quiere realizar un servicio software capaz
-de distribuir una serie de tareas en el tiempo.
+de distribuir una serie de tareas en el tiempo. Este problema se podría ver,
+de manera bastante resumida, como el problema de la mochila; tenemos una cantidad
+de horas (capacidad) y queremos realizar una asignación de las tareas
+(objetos).
 
 Este software tendrá en cuenta una serie de parámetros para poder determinar
 la distribución de las tareas a lo largo del tiempo. Estos parámetros podrían ser:
