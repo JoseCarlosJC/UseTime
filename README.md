@@ -64,6 +64,8 @@ horarias.
 * Historias de usuario donde se indica una necesidad del usuario relacionada con la lógica de negocio: [historias_usuario.md](docs/historias_usuario.md)
 * Productos mínimamente viables (PMV) en [milestones.md](docs/milestones.md)
 
+Todo esto lo puede encontrar en el directorio [docs](docs)
+
 
 # Licencia
 GNU General Public License v3.0
