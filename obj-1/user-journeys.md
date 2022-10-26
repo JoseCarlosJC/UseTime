@@ -20,5 +20,35 @@ Cuando el usuario tenga un momento, entrará en la aplicación desde su móvil o
 El usuario tendrá una opción que indique al programa que calcule la planificación.
 Se aplicará el algoritmo que implica la lógica de negocio y como resultado se obtendrá el horario con las franjas horarias de estudio que tiene que realizar para cada tarea. Por ejemplo:
 
-FOTO
+![FOTO](img/ejemplo_planificacion.png)
 
+
+Cuando se termina una jornada de trabajo, el usuario puede indicar si terminó
+todas las tareas que tenía marcadas, si no las terminó o incluso si avanzó más, si esto es posible. Por tanto tiene 3 opciones:
+* Indicar que las terminó tal y como estaba previsto o no indicar nada; por lo que se obtiene el mismo resultado
+* No le dio tiempo a terminarlas, por lo que el sistema lo tendrá en cuenta y hará un nuevo cálculo del horario teniendo en cuenta que tiene que añadir un poquito más de tiempo para terminar las tareas no realizas más incrementar el tiempo estimado para terminar las tareas de esa asginatura
+* Le dio tiempo a terminarlas e incluso avanzó más. Es el caso contrario al anterior. El sistema hará un nuevo cálculo donde reducirá el tiempo estimado de tareas del mismo tipo (misma asignatura por ejemplo)
+
+
+¿Qué pasa si el tiempo disponible de un usuario es menor al tiempo que el 
+sistema supone que necesita según las tareas marcadas por el usuario?
+Pues el sistema notificará la cantidad de horas que necesita que el usuario añada.
+Por ejemplo, una persona suma un total de 20 horas a la semana disponibles para
+trabajar. Va apuntando sus tareas y añade tantas que el sistema calcula
+unas 30 horas aproximadamente. Entonces la aplicación notificará al usuario
+que debe de añadir 10 horas en esa semana.
+
+Si el tiempo excedido es menor a un umbral, por ejemplo 1 hora, la aplicación
+podría indicar que va muy ajustado en tiempo para que el usuario se mentalice en
+que tiene que trabajar bastante o que añada más horas.
+
+## Trabajos en grupo
+Un equipo de x usuarios necesita hacer un trabajo en grupo. Uno de ellos
+se encarga de crear la tarea y elige la opción de compartir con otros usuarios,
+donde indicará el nombre del resto de usuarios o sus correos electrónicos.
+
+El resto de usuarios recibirán una notificación en la app que les indique que
+alguien quiere compartir una tarea. Ellos pueden aceptarla o denegarla. Cuando
+todos hayan dado una respuesta, se les mostrará a cada uno sus nuevos horarios,
+de manera que a todos les coinciden para la misma hora, duración y día/s el
+trabajo en grupo.
