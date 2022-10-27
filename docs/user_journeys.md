@@ -10,7 +10,7 @@ pueden asignar más tareas, por lo que debería repensar su planificación. Esto
 La primera vez que entre tendrá una configuración por defecto en la que se establecerá una franja de
 estudio por defecto, por ejemplo, de 16:00 a 21:00 todos los días de la semana. Podrá modificar esto
 a su gusto cuando lo desee. Además, para cada día en específico puede indicar una franja horaria.
-Es decir, por normal general su horario es de 16:00 a 21:00 pero el lunes puede indicar que trabajará
+Es decir, por normal general su horario es de 16:00 a 21:00 pero el lunes puede indicar que estudiará
 de 17:00 a 19:00. Esta opción tendrá prioridad sobre la general. La específica la podrá indicar
 para un día en concreto, por ejemplo el 22 de marzo, que podría ser un lunes, o indicarlo
 para todos los lunes.
@@ -21,7 +21,7 @@ web en el dispositivo que desee. Deberá indicar las tareas que tiene que realiz
 * Fecha de entrega o finalización
 * Dificultad entre fácil, medio o difícil
 * Tipo de tarea:
-   *  No implica una serie de etapas, ejercicios, requisitos, etc.: proyecto o práctica evaluable
+   *  No implica una serie de etapas, ejercicios, requisitos, etc.: proyecto o práctica evaluable. Dicho de otra manera, es difícil dividir este trabajo en partes.
    * Implica un número de ejercicios, de objetivos, requisitos, etc. Se indican estos, por ejemplo, el número de los ejercicios (11,12,14,16), requisitos (R1, R2, R3)
 
 El usuario tendrá una opción que indique al programa que calcule la planificación.
@@ -29,13 +29,14 @@ Se aplicará el algoritmo que implica la lógica de negocio y como resultado se 
 franjas horarias de estudio que tiene que realizar para cada tarea. Por ejemplo:
 
 ![FOTO](img/ejemplo_planificacion.png)
+
 (Esta imagen es solo indicativa, no tiene que ser un resultado final)
 
 Cuando se termina una jornada de trabajo, el usuario puede indicar si terminó
 todas las tareas que tenía marcadas, si no las terminó o incluso si avanzó más, si esto es posible.
 Por tanto tiene 3 opciones:
-* Indicar que las terminó tal y como estaba previsto o no indicar nada; por lo que se obtiene el mismo resultado
-* No le dio tiempo a terminarlas, por lo que el sistema lo tendrá en cuenta y hará un nuevo cálculo del horario teniendo en cuenta que tiene que añadir un poquito más de tiempo para terminar las tareas no realizas más incrementar el tiempo estimado para terminar las tareas de esa asginatura
+* Indicar que las terminó tal y como estaba previsto o no indicar nada; no tiene ningún efecto
+* No le dio tiempo a terminarlas, por lo que el sistema lo tendrá en cuenta y hará un nuevo cálculo del horario teniendo en cuenta que tiene que añadir un poquito más de tiempo para terminar las tareas no realizadas más incrementar el tiempo estimado para terminar las tareas de esa asginatura
 * Le dio tiempo a terminarlas e incluso avanzó más. Es el caso contrario al anterior. El sistema hará un nuevo cálculo donde reducirá el tiempo estimado de tareas del mismo tipo (misma asignatura por ejemplo)
 
 
