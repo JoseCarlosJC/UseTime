@@ -56,7 +56,7 @@ horarias.
 
 
 # Objetivo 1
-* Descripción del uso de la app en [user-journeys.md](docs/user-journeys.md)
+* Descripción del uso de la app en [user_journeys.md](docs/user_journeys.md)
 * Descripción de varios perfiles de usuarios en [tipos_usuario.md](docs/tipos_usuario.md)
 * Historias de usuario donde se indica una necesidad del usuario relacionada con la lógica de negocio: [historias_usuario.md](docs/historias_usuario.md)
 * Productos mínimamente viables (PMV) en [milestones.md](docs/milestones.md)
