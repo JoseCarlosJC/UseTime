@@ -1,12 +1,11 @@
 # User Journeys
 Tras un día en un centro de enseñanza, el usuario tiene que realizar una serie de trabajos que tiene que entregar para una fecha.
 
-En un momento tranquilo, por ejemplo cuando está en casa, empieza a pensar qué va a hacer hoy, cuándo (a qué hora), debería pensar también
-para el día de mañana, pasado... Pero al día siguiente le pueden asignar más tareas, por tanto debería repensar su planificación. Esto puede llegar a ser complejo.
+En un momento tranquilo, por ejemplo cuando está en casa, empieza a pensar qué va a hacer hoy, cuándo (a qué hora), debería pensar también para el día de mañana, pasado... Pero al día siguiente le pueden asignar
+más tareas, por lo que debería repensar su planificación. Esto puede llegar a ser complejo.
 
 ## Uso de la aplicación
-La primera vez que entre tendrá una configuración por defecto en
-la que se establecerá una franja de estudio por defecto, por ejemplo, de 16:00 a 21:00 todos los días de la semana. Podrá modificar esto a su gusto cuando lo desee. Además, para cada día en específico puede indicar una franja horaria. Es decir, por normal general su horario es de 16:00 a 21:00 pero el lunes puede indicar que trabajará de 17:00 a 19:00. Esta opción tendrá prioridad sobre la general. La específica la podrá indicar para un día en concreto, por ejemplo el 
+La primera vez que entre tendrá una configuración por defecto en la que se establecerá una franja de estudio por defecto, por ejemplo, de 16:00 a 21:00 todos los días de la semana. Podrá modificar esto a su gusto cuando lo desee. Además, para cada día en específico puede indicar una franja horaria. Es decir, por normal general su horario es de 16:00 a 21:00 pero el lunes puede indicar que trabajará de 17:00 a 19:00. Esta opción tendrá prioridad sobre la general. La específica la podrá indicar para un día en concreto, por ejemplo el 
 22 de marzo, que podría ser un lunes, o indicarlo para todos los lunes.
 
 Cuando el usuario tenga un momento, entrará en la aplicación desde su móvil o a través de la página web en el dispositivo que desee. Deberá indicar las tareas que tiene que realizar:
