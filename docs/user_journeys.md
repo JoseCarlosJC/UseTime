@@ -2,9 +2,9 @@
 Tras un día en un centro de enseñanza, el usuario tiene que realizar una serie de trabajos que tiene
 que entregar para una fecha.
 
-En un momento tranquilo, por ejemplo cuando está en casa, empieza a pensar qué va a hacer hoy, cuándo
+En un momento tranquilo, por ejemplo cuando está en casa, empieza a pensar qué va a hacer hoy (las tareas), cuándo
 (a qué hora), debería pensar también para el día de mañana, pasado... Pero al día siguiente le 
-pueden asignar más tareas, por lo que debería repensar su planificación. Esto puede llegar a ser complejo.
+pueden asignar más trabajos, por lo que debería repensar su planificación. Esto puede llegar a ser complejo.
 
 ## Uso de la aplicación
 La primera vez que entre tendrá una configuración por defecto en la que se establecerá una franja de
@@ -30,7 +30,7 @@ franjas horarias de estudio que tiene que realizar para cada tarea. Por ejemplo:
 
 ![FOTO](img/ejemplo_planificacion.png)
 
-(Esta imagen es solo indicativa, no tiene que ser un resultado final)
+(Esta imagen es solo indicativa, no tiene que ser un resultado final. Las tareas vienen reflejadas en cada bloque, con una hora de inicio y fin, etc. Un trabajo podría ser el de física, los ejercicios 8,9,10 y 11 que se entregan un día posterior al miércoles o ese mismo día. No se reflejan las fechas de entrega, simplemente las tareas se organizan para que estén terminadas antes de la fecha de entrega)
 
 Cuando se termina una jornada de trabajo, el usuario puede indicar si terminó
 todas las tareas que tenía marcadas, si no las terminó o incluso si avanzó más, si esto es posible.
@@ -54,11 +54,11 @@ que tiene que trabajar bastante o que añada más horas.
 
 ## Trabajos en grupo
 Un equipo de x usuarios necesita hacer un trabajo en grupo. Uno de ellos
-se encarga de crear la tarea y elige la opción de compartir con otros usuarios,
+se encarga de crear el trabajo y elige la opción de compartir con otros usuarios,
 donde indicará el nombre del resto de usuarios o sus correos electrónicos.
 
 El resto de usuarios recibirán una notificación en la app que les indique que
-alguien quiere compartir una tarea. Ellos pueden aceptarla o denegarla. Cuando
+alguien quiere compartir un trabajo. Ellos pueden aceptarla o denegarla. Cuando
 todos hayan dado una respuesta, se les mostrará a cada uno sus nuevos horarios,
-de manera que a todos les coinciden para la misma hora, duración y día/s el
-trabajo en grupo.
+de manera que a todos les coinciden para la misma hora, duración y día/s las tareas
+para terminar dicho trabajo.
