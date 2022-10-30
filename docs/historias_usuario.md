@@ -6,9 +6,14 @@ horario en el que todos los días haga algo y ver como los días de la entrega t
 faena de dicha tarea.
 
 ## [HU02]
-Juan Alberto necesita una planificación para saber cuántas horas tiene que estudiar en casa los días
-que no tiene fútbol. Si algún día tiene que trabajar más de 6 horas, no irá a entrenar un día de la semana
-para priorizar los estudios.
+Juan Alberto entrena los martes y jueves y tiene partido el sábado o domingo. Los días de entrenamiento
+y el día de partido no estudia. Para recompensar esos días perdidos, dedica 6 horas de estudio el resto
+de días.
+
+Juan Alberto quiere saber si de esta manera le dará tiempo a terminar todos sus trabajos, es decir,
+sin estudiar unos días y estudiando mucho en otros. Si no le diera tiempo, le gustaría saber cuánto
+tiempo extra necesitaría para añadirlo en uno de los días de entrenamiento, faltando ese día
+a entrenar.
 
 ## [HU03]
 David y Carmen tienen que hacer un trabajo juntos, pero tienen rutinas de estudio muy diferentes,
