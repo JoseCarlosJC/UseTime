@@ -3,11 +3,11 @@ No tener una organización planteada y dejarlo todo en nuestra memoria puede sup
 una desventaja a la hora de realizar una serie de tareas y cumplir un objetivo.
 
 Esto ocurre por ejemplo a la hora de realizar ejercicio físico en un gimnasio. Tener
-una rutina especificada te ayudará a concentrarte solo en los ejercicios y así
+una rutina establecida te ayudará a concentrarte solo en los ejercicios y así
 lograr la meta propuesta.
 
 En este caso la organización va a ir dirigida al conjunto de tareas, prácticas, ejercicios,
-estudio teórico... que debemos de completar en nuestra vida como estudiantes por ejemplo. Tener la obligación
+estudio teórico... que debemos de completar en nuestra vida como estudiantes. Tener la obligación
 de cumplir una serie de horas de trabajo fortalece nuestra disciplina, además de intentar
 llegar más desahogados cuando sean las entregas de estas.
 
@@ -25,13 +25,12 @@ Este software tendrá en cuenta una serie de parámetros para poder determinar
 la distribución de las tareas a lo largo del tiempo. Estos parámetros podrían ser:
 * Franjas horarias disponibles para trabajar
 * Fecha de finalización del trabajo
-* Cantidad de trabajo a realizar cuando se está muy cerca de la entrega
-* ...
+
 
 Además se tendrán en cuenta factores psicológicos como son:
 * Cantidad de horas seguidas de estudio
 * Diversificación del contenido
-* ...
+
 
 
 El programa tiene que ser dinámico:
@@ -40,8 +39,6 @@ otra, a los otros pocos días otra... Esto conllevará un nuevo cálculo para la
 del horario
 * Se indica una entrega muy lejana y mientras pasa ese tiempo aparecen nuevas entregas
 cuyo plazo acaba antes.
-* En la programación estaba terminar una serie de tareas tal día y no lo has cumplido
-* ...
 
 
 Esta parte del servicio correspondería a cada usuario indivualmente, pero esto se podría
@@ -56,6 +53,16 @@ horarias.
 * Configuración de Git y Github
 * Descripción del problema
 [Objetivo 0](https://github.com/JoseCarlosJC/UseTime/tree/objetivo_0/obj-0)
+
+
+# Objetivo 1
+* Descripción del uso de la app en [user_journeys.md](docs/user_journeys.md)
+* Descripción de varios perfiles de usuarios en [tipos_usuario.md](docs/tipos_usuario.md)
+* Historias de usuario donde se indica una necesidad del usuario relacionada con la lógica de negocio: [historias_usuario.md](docs/historias_usuario.md)
+* Productos mínimamente viables (PMV) en [milestones.md](docs/milestones.md)
+
+Todo esto lo puede encontrar en el directorio [docs](docs)
+
 
 # Licencia
 GNU General Public License v3.0
