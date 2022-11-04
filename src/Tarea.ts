@@ -5,15 +5,15 @@ export class Tarea{
     titulo: string;
 
     // Fecha de inicio de la tarea
-    fecha_inicio: Date;
+    fechaInicio: Date;
 
     // Fecha de finalización de la tarea
-    fecha_final: Date;
+    fechaFinal: Date;
 
     constructor(titulo:string, fechaInicio:Date, fechaFinal:Date){
         this.titulo = titulo;
-        this.fecha_inicio = fechaInicio;
-        this.fecha_final = fechaFinal;
+        this.fechaInicio = fechaInicio;
+        this.fechaFinal = fechaFinal;
     }
 
 }
