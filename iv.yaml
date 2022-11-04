@@ -1,1 +1,9 @@
 lenguaje: TypeScript
+
+objeto valor:
+  - src/Rutina.ts
+
+entidad:
+  - src/Usuario.ts
+  - src/Trabajo.ts
+  - src/Tarea.ts
