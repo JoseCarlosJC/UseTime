@@ -3,13 +3,14 @@
 export class Rutina{
     
     // Hora a la que comienza la actividad rutinaria
-    horaComienzo: number;
+    #horaComienzo: number;
 
     // Hora a la que termina
-    horaFinalizacion: number;
+    #horaFinalizacion: number;
 
     constructor(horaComienzo: number, horaFinalizacion: number){
-        this.horaComienzo = horaComienzo;
-        this.horaFinalizacion = horaFinalizacion;
+        this.#horaComienzo = horaComienzo;
+        this.#horaFinalizacion = horaFinalizacion;
     }
+
 }

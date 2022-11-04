@@ -12,21 +12,25 @@ enum Complejidad{
 export class Trabajo{
 
     // Nombre del trabajo a realizar
-    nombre: string;
+    #nombre: string;
 
     // Fecha límite de finalización
-    fechaLimite : Date;
+    #fechaLimite : Date;
 
     // Complejidad del trabajo a realizar
-    complejidad: Complejidad;
+    #complejidad: Complejidad;
 
     // Tareas asignadas al trabajo
-    tareas: Array<Tarea>
+    #tareas: Array<Tarea>
 
     constructor(nombre: string, fechaLimite:Date, complejidad: Complejidad){
-        this.nombre = nombre;
-        this.fechaLimite = fechaLimite;
-        this.complejidad = complejidad;
-        this.tareas = [];
-    }    
+        this.#nombre = nombre;
+        this.#fechaLimite = fechaLimite;
+        this.#complejidad = complejidad;
+        this.#tareas = [];
+    }   
+    
+    getNombre():string{
+        return this.#nombre;
+    }
 }

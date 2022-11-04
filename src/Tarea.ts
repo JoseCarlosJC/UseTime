@@ -3,18 +3,22 @@
 export class Tarea{
 
     // Titulo de la tarea a llevar a cabo
-    titulo: string;
+    #titulo: string;
 
     // Fecha de inicio de la tarea
-    fechaInicio: Date;
+    #fechaInicio: Date;
 
     // Fecha de finalización de la tarea
-    fechaFinal: Date;
+    #fechaFinal: Date;
 
     constructor(titulo:string, fechaInicio:Date, fechaFinal:Date){
-        this.titulo = titulo;
-        this.fechaInicio = fechaInicio;
-        this.fechaFinal = fechaFinal;
+        this.#titulo = titulo;
+        this.#fechaInicio = fechaInicio;
+        this.#fechaFinal = fechaFinal;
+    }
+
+    getTitulo(): string{
+        return this.#titulo;
     }
 
 }
