@@ -1,4 +1,5 @@
 
+// Clase que representa una tarea a llevar a cabo en una franja horaria 
 export class Tarea{
 
     // Titulo de la tarea a llevar a cabo
