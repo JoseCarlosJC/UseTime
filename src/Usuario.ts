@@ -1,4 +1,4 @@
-import { Rutina } from "./Rutina";
+import { HuecosLibres } from "./HuecosLibres";
 import { Trabajo } from "./Trabajo";
 
 
@@ -12,7 +12,7 @@ export class Usuario{
     #password: string;
 
     // Intervalos de tiempo que estarán siempre ocupados.
-    #accionesRutinarias: Array<Rutina>;
+    #huecosLibres: Array<HuecosLibres>;
 
     // Trabajos que se desean distribuir en tareas
     #trabajos: Array<Trabajo>;
