@@ -1,7 +1,7 @@
 import { Hora } from "./Hora";
 
-// Representa aquellos intervalos de tiempo en los que se puede asignar una tarea
-export class HuecosLibres{
+// Representa aquellos intervalos de tiempo de un dia en los que se puede asignar una tarea
+export class HuecosLibresDia{
     
     // Dia 
     #dia: Date;

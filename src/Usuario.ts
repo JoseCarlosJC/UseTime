@@ -1,4 +1,4 @@
-import { HuecosLibres } from "./HuecosLibres";
+import { HuecosLibresDia } from "./HuecosLibresDia";
 import { Trabajo } from "./Trabajo";
 
 
@@ -11,8 +11,8 @@ export class Usuario{
     // Contraseña
     #password: string;
 
-    // Intervalos de tiempo que estarán siempre ocupados.
-    #huecosLibres: Array<HuecosLibres>;
+    // Intervalos de tiempo de un dia que estarán libres.
+    #huecosLibresDia: Array<HuecosLibresDia>;
 
     // Trabajos que se desean distribuir en tareas
     #trabajos: Array<Trabajo>;
