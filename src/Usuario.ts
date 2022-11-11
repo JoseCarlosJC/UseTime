@@ -26,8 +26,4 @@ export class Usuario{
         return this.#correo;
     }
 
-    getPassword(): string{
-        return this.#password;
-    }
-
 }
