@@ -8,4 +8,4 @@ entidad:
   - src/Usuario.ts
   - src/Trabajo.ts
   - src/Tarea.ts
-  - src/HuecosLIbresDia.ts
+  - src/HuecosLibresDia.ts
