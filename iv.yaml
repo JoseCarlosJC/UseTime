@@ -1,9 +1,11 @@
 lenguaje: TypeScript
 
 objeto valor:
-  - src/Rutina.ts
+  - src/Hora.ts
+
 
 entidad:
   - src/Usuario.ts
   - src/Trabajo.ts
   - src/Tarea.ts
+  - src/HuecosLIbresDia.ts
