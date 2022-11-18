@@ -1,4 +1,4 @@
-import { Tarea } from "./Tarea";
+import { Tarea } from "./tarea";
 
 // Enumerado que representará la complejidad de los trabajos
 enum Complejidad{
