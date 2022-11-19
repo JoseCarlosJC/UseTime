@@ -11,4 +11,12 @@ export class Hora{
         this.#hora = hora;
         this.#minutos = minutos;
     }
+
+    get hora(){
+        return this.#hora
+    }
+
+    get minutos(){
+        return this.#minutos
+    }
 }
