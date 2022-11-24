@@ -1,19 +1,20 @@
+import { TramoHorario } from "./tramo_horario";
+
 // Clase que modeliza las diferentes tareas en las que se divide un trabajo
 
 export class Tarea{
     // Nombre de la tarea
     private _nombre: string;
 
-    // Definición de la franja horaria a la que se desea asignar a la tarea
-    // Fecha de inicio de dicha franja horaria
-    private _fechaInicio: Date;
+    // Dia en la que se llevará a cabo la tarea
+    private _dia: Date;
 
-    // Fecha de finalizacion de dicha franja horaria
-    private _fechaFinal: Date;
+    // Tramo horario en la que se llevará a cabo
+    private _tramo: TramoHorario;
 
-    constructor(nombre:string, fechaInicio:Date, fechaFinal:Date){
+    constructor(nombre:string, dia:Date, tramo:TramoHorario){
         this._nombre = nombre
-        this._fechaInicio = fechaInicio
-        this._fechaFinal = fechaFinal
+        this._dia = dia
+        this._tramo = tramo
     }
 }
