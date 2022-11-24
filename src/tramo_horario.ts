@@ -1,14 +1,14 @@
 // Representación de una hora
 
 export class TramoHorario{
-    // Hora  de comienzo del tramo horario
-    private _horaComienzo : number;
+    // Hora en formato hora-minuto de comienzo del tramo horario
+    private _horaComienzo : [number, number];
 
-    // Hora de finalizacion del tramo horario
-    private _horaFinalizacion : number;
+    // Hora en formato hora-minuto de finalizacion del tramo horario
+    private _horaFinalizacion : [number, number];
 
-    constructor(horaInicio: number, horaFin: number){
-        this._horaComienzo = horaInicio;
-        this._horaFinalizacion = horaFin;
+    constructor(horaComienzo: [number,number], horaFinalizacion: [number,number]){
+        this._horaComienzo = horaComienzo;
+        this._horaFinalizacion = horaFinalizacion;
     }
 }
