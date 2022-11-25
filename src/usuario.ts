@@ -13,7 +13,9 @@ export class Usuario{
     // Trabajos que se desean distribuir en tareas
     private _trabajos: Array<Trabajo>;
 
-    constructor(correo: string, password: string){
+    constructor(correo: string, huecosLibresDia: Array<HuecosLibresDia>, trabajos: Array<Trabajo>){
         this._correo = correo;
+        this._huecosLibresDia = huecosLibresDia;
+        this._trabajos = trabajos;
     }
 }
