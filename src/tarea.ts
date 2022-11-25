@@ -1,5 +1,11 @@
 import { TramoHorario } from "./tramo_horario";
 
+// Representa la duración de una tarea
+enum Duracion{
+    media_hora,
+    hora,
+}
+
 // Clase que modeliza las diferentes tareas en las que se divide un trabajo
 
 export class Tarea{
@@ -12,9 +18,14 @@ export class Tarea{
     // Tramo horario en la que se llevará a cabo
     private _tramo: TramoHorario;
 
-    constructor(nombre:string, dia:Date, tramo:TramoHorario){
+    // Contructor al que se le pasan un nombre, la hora de inicio, y la Duracion: si es media hora o una hora entera
+    constructor(nombre:string, dia:Date, horaInicio: number, duracion:Duracion){
         this._nombre = nombre
         this._dia = dia
-        this._tramo = tramo
+        if(duracion==Duracion.media_hora) {
+            this._tramo = new TramoHorario([horaInicio,0],[horaInicio,30])
+        }else{
+            this._tramo = new TramoHorario([horaInicio,0],[horaInicio+1,0])
+        }
     }
 }
