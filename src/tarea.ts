@@ -19,11 +19,15 @@ export class Tarea{
     private _tramo: TramoHorario;
 
     // Contructor al que se le pasan un nombre, la hora de inicio, y la Duracion: si es media hora o una hora entera
-    constructor(nombre:string, dia:Date, horaInicio: number, duracion:Duracion){
+    constructor(nombre:string, dia:Date, horaInicio: number, minutoInicio: number, duracion:Duracion){
         this._nombre = nombre
         this._dia = dia
         if(duracion==Duracion.media_hora) {
-            this._tramo = new TramoHorario([horaInicio,0],[horaInicio,30])
+            if(minutoInicio == 30){
+                this._tramo = new TramoHorario([horaInicio,minutoInicio],[horaInicio+1,0])
+            }else{
+                this._tramo = new TramoHorario([horaInicio,minutoInicio],[horaInicio,30])
+            }
         }else{
             this._tramo = new TramoHorario([horaInicio,0],[horaInicio+1,0])
         }
