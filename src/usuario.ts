@@ -4,9 +4,6 @@ import { TramoHorario } from "./tramo_horario";
 // Representa un usuario
 export class Usuario{
 
-    // Correo electrónico del usuario: se usará como identificador de este ya que es único para cada uno
-    private _correo: string;
-
     // Huecos libres en los que se puede asignar una tarea.
     private _huecosLibresDia: Array<TramoHorario>;
 
