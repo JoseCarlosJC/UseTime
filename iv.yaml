@@ -4,5 +4,5 @@ entidad:
   - src/usuario.ts
   - src/trabajo.ts
   - src/tarea.ts
-  - src/hora.ts
-  - src/huecos_libres_dia.ts
+  - src/tramo_horario.ts
+  - src/momento.ts

@@ -1,8 +1,4 @@
-// Representación de una hora
-export type Hora={
-    hora: number;
-    minuto: number;
-}
+import { Momento } from "./momento";
 
 // Representación de un tramo horario
 export class TramoHorario{
@@ -11,14 +7,14 @@ export class TramoHorario{
     private _dia: Date;
 
     // Hora en formato hora-minuto de comienzo del tramo horario
-    private _horaComienzo : Hora;
+    private _momentoComienzo : Momento;
 
     // Hora en formato hora-minuto de finalizacion del tramo horario
-    private _horaFinalizacion : Hora;
+    private _momentoFinalizacion : Momento;
 
-    constructor(dia: Date,horaComienzo: Hora, horaFinalizacion: Hora){
+    constructor(dia: Date,horaComienzo: Momento, horaFinalizacion: Momento){
         this._dia = dia;
-        this._horaComienzo = horaComienzo;
-        this._horaFinalizacion = horaFinalizacion;
+        this._momentoComienzo = horaComienzo;
+        this._momentoFinalizacion = horaFinalizacion;
     }
 }

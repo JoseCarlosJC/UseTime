@@ -1,4 +1,5 @@
-import { TramoHorario, Hora } from "./tramo_horario";
+import { TramoHorario } from "./tramo_horario";
+import { Momento } from "./momento";
 
 // Representa la duración de una tarea
 enum Duracion{
@@ -15,19 +16,19 @@ export class Tarea{
     // Tramo horario en la que se llevará a cabo
     private _tramoTarea: TramoHorario;
 
-    // Contructor al que se le pasan un nombre, la hora de inicio, y la Duracion: si es media hora o una hora entera
-    constructor(nombre:string, dia:Date, horaInicio: Hora, duracion:Duracion){
-        this._nombreTarea = nombre
-        let horaFinalizacion: Hora
+    // Contructor al que se le pasan un nombre, el momento de inicio, y la Duracion: si es media hora o una hora entera
+    constructor(nombre:string, dia:Date, momentoInicio: Momento, duracion:Duracion){
+        this._nombreTarea = nombre;
+        let momentoFinalizacion: Momento;
         if(duracion==Duracion.media_hora) {
-            if(horaInicio.minuto == 30){
-                horaFinalizacion = {hora:horaInicio.hora+1, minuto:0}
+            if(momentoInicio.minuto == 30){
+                momentoFinalizacion = new Momento(momentoInicio.hora+1, 0);
             }else{
-                horaFinalizacion = {hora:horaInicio.hora, minuto:30}
+                momentoFinalizacion = new Momento(momentoInicio.hora, 30);
             }
         }else{
-            horaFinalizacion = {hora:horaInicio.hora+1, minuto:horaInicio.minuto}
+            momentoFinalizacion = new Momento(momentoInicio.hora+1, momentoInicio.minuto)
         }
-        this._tramoTarea = new TramoHorario(dia ,horaInicio,horaFinalizacion)
+        this._tramoTarea = new TramoHorario(dia ,momentoInicio,momentoFinalizacion)
     }
 }
