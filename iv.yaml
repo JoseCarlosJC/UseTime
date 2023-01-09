@@ -1,0 +1,8 @@
+lenguaje: TypeScript
+
+entidad:
+  - src/usuario.ts
+  - src/trabajo.ts
+  - src/tarea.ts
+  - src/tramo_horario.ts
+  - src/momento.ts
