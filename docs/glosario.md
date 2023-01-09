@@ -1,7 +1,7 @@
 # Glosario de términos
 **tarea**
  
-Actividad que tienen una fecha y hora de inicio y final. Las tareas se realizan para completar los trabajos.
+Actividad que tiene una fecha y hora de inicio y final. Las tareas se realizan para completar los trabajos.
 ___
 
 **trabajo**

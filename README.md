@@ -49,20 +49,17 @@ horarias.
 
 
 
-# Objetivo 0
-* Configuración de Git y Github
-* Descripción del problema
-[Objetivo 0](https://github.com/JoseCarlosJC/UseTime/tree/objetivo_0/obj-0)
+# Documentación
+Puede encontrar todo en [docs](docs)
 
-
-# Objetivo 1
+* Configuración del repositorio (Git, Github...) [docs/config_repositorio](docs/config_repositorio)
 * Descripción del uso de la app en [user_journeys.md](docs/user_journeys.md)
 * Descripción de varios perfiles de usuarios en [tipos_usuario.md](docs/tipos_usuario.md)
 * Historias de usuario donde se indica una necesidad del usuario relacionada con la lógica de negocio: [historias_usuario.md](docs/historias_usuario.md)
 * Productos mínimamente viables (PMV) en [milestones.md](docs/milestones.md)
 
-Todo esto lo puede encontrar en el directorio [docs](docs)
-
+# Estado actual
+Propuesta aceptada de un modelo del problema (Milestone 0). Puede verlo en [src](src)
 
 # Licencia
 GNU General Public License v3.0
